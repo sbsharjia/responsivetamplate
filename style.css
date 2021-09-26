@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+/*start header area design*/
+.header-area{
+    background-color: #22c3a3;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+.logo-area h2{
+    color: #effbf9;
+    margin-top: 22px;
+    font-size: 27px;
+}
+.menu-area{
+    width: 70%;
+    float: right;
+    text-align: right;
+}
+.menu-area ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.menu-area ul li a{
+    text-decoration: none;
+    color: #eeeeee;
+    padding: 0 17px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 75px;
+    font-weight: bold;
+}
+/*start banner area design*/
+.banner-area{
+    background-image: url('image/header-bg01.jpg');
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.banner h1{
+    color: #ffffff;
+    font-size: 60px;
+}
+.banner h4{
+    color: #cef2eb;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.btn a{
+    text-decoration: none;
+    color: #cef2eb;
+    border: 2px solid #cef2eb;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+/* atart service area design*/
+.service-area{
+    padding: 40px 0;
+}
+.our-service h2{
+    font-size: 30px;
+    color: #555555;
+    margin-top: 35px;
+}
+.our-service p{
+    color: #555555;
+    padding: 20px 0;
+}
+/*start service item design*/
+.service-item{
+    border-bottom: 3px solid #0dbf9b;
+    padding: 60px 0;
+}
+.service-menu{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: -20px;
+}
+.service-menu i{
+    font-size: 35px;
+    color: #0dbf9b;
+    padding: 20px 0;
+}
+.service-menu h3{
+    text-transform: capitalize;
+    margin-bottom: -25px;
+    color: #555555;
+    font-size: 25px;
+}
+.service-menu p{
+    padding: 30px;
+    color: #555555;
+    font-size: 17px;
+    margin-top: 10px;
+}
+/*about*/
+.about h2{
+    font-size: 30px;
+    color: #555555;
+    margin-top: 77px;
+}
+.about p{
+    color: #555555;
+    padding: 20px 0;
+}
+/*content area design*/
+.content-area{
+    padding: 80px 0;
+    margin-top: -43px;
+}
+.content-img{
+    width: 42%;
+    float: left;
+}
+.content-img img{
+    width: 560px;
+    height: auto;
+}
+.content{
+    width: 55%;
+    float: right;
+}
+.content1{
+    width: 95%;
+    margin: 15px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.content1 h3{
+    font-size: 15px;
+    color: #666666;
+    margin: 10px 0;
+}
+.content1 p{
+    font-size: 16px;
+    color: #666666;
+}
+/* contuct area design*/
+.contuct-us{
+    background-color: #f6f6f6;
+    color: #666666;
+    overflow: hidden;
+}
+.contuct h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-top: 70px;
+}
+.contuct p{
+    margin-top: 37px;
+}
+/*phone area design*/
+.container2{
+    width: 70%;
+    margin: auto;
+}
+.phone-area{
+    background-color: #f6f6f6;
+    padding: 51px;
+}
+.location{
+    float: left;
+    width: 33.33%;
+    padding: 30px 50px;
+    box-sizing: border-box;
+    margin-top: -20px;
+}
+.location h5{
+    font-size: 14px;
+}
+.location span{
+    color: #0dbf9b;
+}
+.location h5{
+    padding: 0 14%;
+    margin-top: 10px;
+    color: rgb(150, 144, 144);
+}
+/*footer area design*/
+.footer-area{
+    background-color: #0dbf9b;
+    padding: 25px;
+}
+.social-menu ul{
+    text-align: center;
+}
+.social-menu ul li{
+    display: inline-block;
+}
+.social-menu ul li a{
+    padding: 0 10px;  
+    color: #ffffff;
+    font-size: 17px;
+}
+.footer-copy-area{
+    background-color: #111;
+    padding: 15px 0;
+    color: #5c5b5b;
+    font-size: 15px;
+}
+
+
